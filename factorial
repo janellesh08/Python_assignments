@@ -1,0 +1,21 @@
+# Write an app which asks users for the input and then 
+# prints the factorial for that number.
+
+
+num = int(input("Enter a number to get the factorial: "))
+myList = []
+ for urthang in range(num):
+     myList.append(urthang)
+
+def factorial(urthang):
+    result = 1
+    for i in (urthang):
+        result *= i
+    return result
+    
+factorial(num)
+
+
+
+
+
